@@ -1,0 +1,54 @@
+body {
+    font-family: 'Gayathri', sans-serif;
+    margin: 0;
+}
+
+#addressee {
+    font-family: 'Pacifico', cursive;
+    color: #0073a5;
+}
+
+header {
+    text-align: center;
+    height: 30vh;
+    display: grid;
+    align-items: center;
+    background-color: #fdcc69;
+    font-size: 3vh;
+    color: #0073a5;
+}
+
+section {
+    margin: auto;
+    text-align: center;
+    width: 95%;
+    max-width: 700px;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+button {
+    font-size: 2vh;
+    background-color: #0073a5;
+    color: white;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#outcome {
+    display: none;
+}
+
+#order {
+    display: none;
+}
+
+ol {
+    font-size: 1.25em;
+}
