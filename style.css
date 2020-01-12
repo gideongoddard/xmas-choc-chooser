@@ -1,20 +1,11 @@
 body {
     font-family: 'Gayathri', sans-serif;
     margin: 0;
+    background-color: lightblue;
 }
 
 #addressee {
     font-family: 'Pacifico', cursive;
-    color: #0073a5;
-}
-
-header {
-    text-align: center;
-    height: 30vh;
-    display: grid;
-    align-items: center;
-    background-color: #fdcc69;
-    font-size: 3vh;
     color: #0073a5;
 }
 
@@ -23,8 +14,13 @@ section {
     text-align: center;
     width: 95%;
     max-width: 700px;
-    padding: 20px 0;
+    padding: 3vh 0;
     border-bottom: 1px solid black;
+}
+
+#intro {
+    border-top: 1px solid black;
+    margin-top: 5vh;
 }
 
 p {
